@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Avenir, 'Nunito Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.svg {
+    width: 20px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+
+    &.icon {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    svg, .svg {
+        width: 20px;
+        height: auto;
+        vertical-align: bottom;
+    }
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.lh-14 {
+    line-height: 1.4em;
+}
+
+/**
+ * SVG
+ */
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.svgicon {
+    display: inline-block;
+    
+    svg, .svg {
+        width: 25px;
+        height: auto;
+    }
+
+    &--small {
+        svg, .svg {
+            width: 18px !important;
+            height: auto !important;
+        }
+    }
+
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+/**
+ * LAYOUT
+ */
+
+#app {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContent {
+    padding-bottom: 50px;
+}
